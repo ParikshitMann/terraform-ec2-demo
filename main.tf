@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_instance" "demo" {
   ami           = "ami-0e9262cbb2344d5ee"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "terraform-github-demo"

@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "ap-southeast-2"
 }
 
 resource "aws_instance" "demo" {
